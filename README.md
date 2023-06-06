@@ -1,3 +1,4 @@
 # LGM_VIP_Program
 
-<a href="omi-patel.github.io/GetUserData/"> Task 2 </a>
+Task-1 is Live at : 
+Task-2 is Live at : omi-patel.github.io/GetUserData/
