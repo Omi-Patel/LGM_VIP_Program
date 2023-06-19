@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sForm">
+            <div>
+                <h1 style="color: green;">
+                    Registration Form.
+                </h1>
+            </div>
+            <div class="formPage">
+
+
+                <!-- <label for="textInput1">Input: </label> -->
+                <br>
+                <input class="inp" type="text" id="name" placeholder="Your Name" /> <br><br>
+                <input class="inp" type="email" id="email" placeholder="Your E-mail" /><br><br>
+                <input class="inp" type="number" id="phone" placeholder="Your Number" /> <br><br> 
+
+
+                <label><b>Gender:</b></label>
+                <div class="radio-group">
+                    <label>
+                        <input class="skillBox" type="radio" name="gender" value="Male" id="g1" required> Male
+                    </label>
+                    <label>
+                        <input class="skillBox" type="radio" name="gender" value="Female" id="g2"> Female
+                    </label>
+                    
+                </div>
+                <br>
+
+
+                <label><b>Skills:</b></label>
+                <div class="checkbox-group">
+                    <label>
+                        <input class="skillBox" type="checkbox" name="skills" value="HTML"> HTML
+                    </label>
+                    <label>
+                        <input class="skillBox" type="checkbox" name="skills" value="CSS"> CSS
+                    </label>
+                    <label>
+                        <input class="skillBox" type="checkbox" name="skills" value="JavaScript"> JavaScript
+                    </label>
+                </div>
+                <br>
+
+
+                <button type="button" onclick="getInputValue()">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+        <div class="display">
+            <table id="infotable">
+                <tr>
+                    <th>
+                        <h1 style="color: rgb(146, 146, 4);">Student's Details.</h1>
+                        <hr>
+                    </th>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
